@@ -4,7 +4,6 @@ def oxford_comma(array)
     puts array.length
     array.each_with_index {|element, index| 
       if (index != array.length - 1)
-        puts index
         newString.concat(", #{element}")
       else
         newString.concat(", and #{element}")
@@ -15,6 +14,7 @@ def oxford_comma(array)
   else
     newString = array[0]
   end
+  puts newString
 end
 
 oxford_comma(["h","f","b"])
