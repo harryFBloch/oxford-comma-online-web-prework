@@ -6,7 +6,7 @@ def oxford_comma(array)
       if (index != array.length - 1)
         newString.concat(" #{element},")
       else
-        newString.concat(", and #{element}")
+        newString.concat(" and #{element}")
       end
     }
   elsif array.length == 2
