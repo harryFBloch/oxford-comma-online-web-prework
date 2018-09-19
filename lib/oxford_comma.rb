@@ -2,7 +2,7 @@ def oxford_comma(array)
   newString = ""
   if array.length > 2
     array.each_with_index {|element, index| 
-      if index != array.length - 1
+      if (index != array.length - 1)
         newString.concat(", #{element}")
       else
         newString.concat(", and #{element}")
