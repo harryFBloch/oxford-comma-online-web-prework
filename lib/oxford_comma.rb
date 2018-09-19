@@ -14,3 +14,5 @@ def oxford_comma(array)
     newString = array[0]
   end
 end
+
+oxford_comma([h,f,b])
