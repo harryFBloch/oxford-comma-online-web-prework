@@ -16,4 +16,3 @@ def oxford_comma(array)
   end
 end
 
-oxford_comma([h,f,b])
