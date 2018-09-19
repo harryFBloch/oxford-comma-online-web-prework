@@ -13,6 +13,5 @@ def oxford_comma(array)
   else
     newString = array[0]
   end
-  puts newString
 end
 
