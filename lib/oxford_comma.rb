@@ -4,7 +4,7 @@ def oxford_comma(array)
     puts array.length
     array.each_with_index {|element, index| 
       if (index != array.length - 1)
-        newString.concat(", #{element}")
+        newString.concat(" #{element},")
       else
         newString.concat(", and #{element}")
       end
