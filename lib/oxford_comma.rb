@@ -8,6 +8,7 @@ def oxford_comma(array)
         newString.concat(", #{element}")
       else
         puts "TEST"
+        puts element
         newString.concat(", and #{element}")
       end
     }
