@@ -13,5 +13,8 @@ def oxford_comma(array)
   else
     newString = array[0]
   end
+  return newString
 end
+
+
 
