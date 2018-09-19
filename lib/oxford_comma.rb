@@ -3,9 +3,9 @@ def oxford_comma(array)
   if array.length > 2
     array.each_with_index {|element, index| 
       if (index != array.length - 1)
-        newString.concat(" #{element},")
+        newString.concat("#{element}, ")
       else
-        newString.concat(" and #{element}")
+        newString.concat("and #{element}")
       end
     }
   elsif array.length == 2
