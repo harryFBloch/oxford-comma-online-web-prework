@@ -1,6 +1,7 @@
 def oxford_comma(array)
   newString = ""
   if array.length > 2
+    puts array.length
     array.each_with_index {|element, index| 
       if (index != array.length - 1)
         puts index
